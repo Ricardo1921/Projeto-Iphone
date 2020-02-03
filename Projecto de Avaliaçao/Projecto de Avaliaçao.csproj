@@ -56,6 +56,7 @@
     <Compile Include="iphone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tele.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +108,7 @@
     <None Include="Resources\12321.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\help.chm" />
     <None Include="Resources\mapa.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +167,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transferir %282%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

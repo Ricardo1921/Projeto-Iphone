@@ -12,6 +12,8 @@ namespace Projecto_de_Avaliaçao
 {
     public partial class Form1 : Form
     {
+        bool on = true;
+
         public Form1()
         {
             InitializeComponent();
@@ -183,6 +185,25 @@ namespace Projecto_de_Avaliaçao
         private void B23_Click(object sender, EventArgs e)
         {
             pictureBox23.Visible = true;
+        }
+
+        private void Button2_Click_1(object sender, EventArgs e)
+        {
+            pictureBox24.Visible = true;
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void ajuda(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "C:\\Users\\noddy\\Source\\Repos\\Projeto-Iphone-noddy\\Projecto de Avaliaçao\\Resources\\help.chm");
+        }
+
+        private void Button3_Click_1(object sender, EventArgs e)
+        {
+            pictureBox24.Visible = false;
         }
     }
 }
